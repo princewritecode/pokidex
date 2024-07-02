@@ -1,19 +1,25 @@
+.pokemon-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .pokemon-list-wrapper {
-  margin: 1rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.pokemon-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: auto;
+.page-controls button {
+  padding: 10px 2rem;
+  margin-left: 1rem;
+  font-weight: bolder;
+  border: none;
+  background-color: salmon;
+  border-radius: 10px;
 }
 
-.controls button {
-  padding: 0.5rem 1rem;
-  margin-left: 1rem;
+.page-controls button:hover {
+  background-color: tomato;
 }
